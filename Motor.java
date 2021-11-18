@@ -1,16 +1,26 @@
 public class Motor
 {
     private boolean encendido;
-    private String potenciaMotor;
+    private int potenciaMotor;
 
     public Motor(boolean encender){
         encendido = encender;
-        potenciaMotor = "6 Kw";
+        potenciaMotor = 6;
     }
 
-
-    /*public int sampleMethod(int y)
-    {
-        return x + y;
-    }*/
+    public void setPotencia(int potencia){
+        potenciaMotor = potencia;
+    }
+    
+    public int getPotenciaMotor(){
+        return potenciaMotor;
+    }
+    
+    public void setEstadoMotor(boolean motorEncendido){
+        encendido = motorEncendido;
+    }
+    
+    public boolean getEstadoMotot(){
+        return encendido;
+    }
 }
