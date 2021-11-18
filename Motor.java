@@ -33,4 +33,5 @@ public class Motor
         }
         System.out.println(" La velocidad del motor es: "+potenciaMotor+ " Kw.");
     }
+    
 }

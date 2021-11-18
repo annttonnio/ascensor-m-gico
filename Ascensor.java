@@ -9,4 +9,25 @@ public class Ascensor
         velocidad = 3;
         motor = nuevoMotor;
     }
+    
+    public void setMarca(String marcaAscensor){
+        marca = marcaAscensor;
+    }
+    public String getMarca(){
+        return marca;
+    }
+    
+    public void setVelocidad(int velocidadAscensor){
+        velocidad = velocidadAscensor;
+    }
+    public int getVelocidad(){
+        return velocidad;
+    }
+    
+    public void setMotor(Motor nuevoMotor){
+        motor = nuevoMotor;
+    }
+    public Motor getMotor() {
+        return motor;
+    }
 }
