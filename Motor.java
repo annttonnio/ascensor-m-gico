@@ -23,4 +23,14 @@ public class Motor
     public boolean getEstadoMotot(){
         return encendido;
     }
+    
+    public void imprimirDetalles(){
+        if(encendido == true){
+            System.out.println(" El motor está encendido ");  
+        }
+        else{
+            System.out.println(" El motor está apagado ");
+        }
+        System.out.println(" La velocidad del motor es: "+potenciaMotor+ " Kw.");
+    }
 }

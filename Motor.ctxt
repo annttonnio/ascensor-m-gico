@@ -10,4 +10,6 @@ comment4.params=motorEncendido
 comment4.target=void\ setEstadoMotor(boolean)
 comment5.params=
 comment5.target=boolean\ getEstadoMotot()
-numComments=6
+comment6.params=
+comment6.target=void\ imprimirDetalles()
+numComments=7
