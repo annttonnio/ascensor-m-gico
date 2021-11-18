@@ -26,10 +26,10 @@ public class Motor
     
     public void imprimirDetalles(){
         if(encendido == true){
-            System.out.println(" El motor est√° encendido ");  
+            System.out.println(" El motor est· encendido ");  
         }
         else{
-            System.out.println(" El motor est√° apagado ");
+            System.out.println(" El motor est· apagado ");
         }
         System.out.println(" La velocidad del motor es: "+potenciaMotor+ " Kw.");
     }

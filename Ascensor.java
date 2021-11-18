@@ -30,4 +30,12 @@ public class Ascensor
     public Motor getMotor() {
         return motor;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println(" La marca del ascensor es "+marca+ ". "+"\n"+
+            " La velocidad es de: "+velocidad+ " Km/h."+"\n"
+            + " Estadisticas del motor: ");
+        
+        motor.imprimirDetalles();
+    }
 }
